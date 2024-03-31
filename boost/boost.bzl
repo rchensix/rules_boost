@@ -139,8 +139,8 @@ def boost_deps():
         http_archive,
         name = "org_lzma_lzma",
         build_file = "@com_github_nelhage_rules_boost//:lzma.BUILD",
-        url = "https://github.com/tukaani-project/xz/releases/download/v5.4.3/xz-5.4.3.tar.gz",
-        sha256 = "1c382e0bc2e4e0af58398a903dd62fff7e510171d2de47a1ebe06d1528e9b7e9",
+        url = "https://src.fedoraproject.org/lookaside/extras/xz/xz-5.4.3.tar.xz/sha512/7252191339afb97fc6a00616b1a8b9f24247d3539e7dbffca2045954593ae3e20d59e34f24c03b1954c96fbfa9cc8a7fea2a6e501e837872f90e8cd8bb307bb5/xz-5.4.3.tar.xz",
+        sha256 = "92177bef62c3824b4badc524f8abcce54a20b7dbcfb84cde0a2eb8b49159518c",
         strip_prefix = "xz-5.4.3",
     )
 
